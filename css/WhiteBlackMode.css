@@ -1,0 +1,57 @@
+/* Estilos para el modo claro (por defecto) */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #007bff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease; /* Animación suave para el cambio de modo */
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  /* Estilos para el modo oscuro */
+  body.dark-mode {
+    --background-color: #2e2e2e;
+    --text-color: #ffffff;
+    --link-color: #ff6347; /* Rojo tomate, puedes cambiarlo */
+  }
+  
+  /* Estilo para el botón del modo oscuro */
+  .toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  body.dark-mode {
+    --background-color: #2e2e2e;
+    --text-color: #ffffff;
+    --link-color: #ff6347; /* Rojo tomate */
+    --card-bg: #333333; /* Fondo de la tarjeta en modo oscuro */
+    --card-text-color: #ffffff; /* Color del texto de la tarjeta en modo oscuro */
+  }
+  
+  .card {
+    background-color: var(--card-bg);
+    color: var(--card-text-color);
+  }
+  
+  .card-body {
+    background-color: var(--card-bg);
+    color: var(--card-text-color);
+  }
+    
