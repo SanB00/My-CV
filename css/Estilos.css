@@ -1,0 +1,39 @@
+body{
+   
+  margin-left: 60px;
+  margin-right: 60px; 
+}
+
+h1{
+  background-color: gray;  
+}
+button{
+  background-color:burlywood;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid rgb(10, 10, 10);
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: cadetblue;
+}
+a{
+  background-color:burlywood;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
